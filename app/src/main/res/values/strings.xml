@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ContactList</string>
+    <string name="ListView">FriendsContacts</string>
+    <string name="TextView">Contact Detail </string>
+    <string name="Back">Back</string>
+    <string name="Header">Header</string>
+    <string name="Footer">Footer</string>
+    <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
+    <string name="Search">Search</string>
+    <string name="Exit">Exit</string>
+    <string name="Settings">Settings</string>
+    <string name="AddContact">Add</string>
+
+</resources>

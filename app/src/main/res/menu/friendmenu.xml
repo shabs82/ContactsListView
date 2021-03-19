@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <menu />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/Settings"
+        app:showAsAction="never"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+    <item
+        android:id="@+id/btnClose"
+        android:title="@string/Exit"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+
+        />
+     <item
+         android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Search"
+         android:icon="@drawable/ic_baseline_person_search_24"
+         app:showAsAction="always"
+        android:layout_toRightOf="@+id/ContactView"
+        />
+    <item
+        android:id="@+id/btnAddContact"
+        android:title="@string/AddContact"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        />
+
+
+
+</menu>
